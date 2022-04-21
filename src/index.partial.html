@@ -1,0 +1,20 @@
+<div id="terminal-parent">
+    <div class="question-container-header">
+        <h1>Ask a question</h1>
+    </div>
+    <div class="question-container">
+        <form action="/question-asked">
+            <input 4 type="text" id="question" name="question" placeholder="What Are Your Dying to Know?"><br><br>
+            <input id="question-submit" class="hidden" type="submit" name="submit" value="Ask The Omnipotent 8-Ball">
+        </form>
+        <div class="ball-container">
+            <ul class="magic-eight-ball">
+                <li id="answer"></li>
+            </ul>
+            <div id="recent-questions" name="recent-questions">
+                <h3>Recent Questions</h3>
+                <ul>
+                    <li id="recent-questions-list-item"></li>
+            </div>
+        </div>
+    </div>
